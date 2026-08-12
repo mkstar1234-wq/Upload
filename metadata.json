@@ -1,0 +1,6 @@
+{
+  "name": "Nano Snap",
+  "description": "A lightweight, mobile-friendly application for organizing photos in custom categories.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
