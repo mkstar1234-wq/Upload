@@ -1,9 +1,9 @@
 const CACHE_NAME = 'app-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/app.js'
+  './',
+  './index.html',
+  './style.css',
+  './app.js'
 ];
 
 // Install event: cache core assets
@@ -48,7 +48,7 @@ self.addEventListener('fetch', event => {
         ).catch(() => {
           // If offline and request is for an HTML page, serve index.html as fallback
           if (event.request.mode === 'navigate') {
-            return caches.match('/index.html');
+            return caches.match('./index.html');
           }
         });
       })

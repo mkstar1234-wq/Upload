@@ -1,7 +1,8 @@
 {
   "name": "Cloud Photos",
   "short_name": "Photos",
-  "start_url": "/",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "theme_color": "#18181b",
   "background_color": "#18181b",
